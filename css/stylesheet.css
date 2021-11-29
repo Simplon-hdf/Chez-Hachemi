@@ -1,0 +1,54 @@
+body{
+    background-image: url("../img/wall-texture.jpg");
+}
+.titre { text-align: center;
+    margin-top: 5%;
+
+    
+}
+
+.grille {
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 10px;
+
+}
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 1px 1px 12px rgb(0, 0, 0);
+
+}
+
+.image1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+.image3 {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.image4 {
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.image5 {
+    grid-area: 3 / 4 / 5 / 5;
+}
+
+
+
+.image8 {
+    grid-area: 1 / 3 / 3 / 5;
+}
+

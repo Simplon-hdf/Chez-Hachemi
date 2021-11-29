@@ -1,0 +1,74 @@
+body{
+    background-image: url(../img/wall-texture.jpg);
+}
+
+.formulaire {
+margin-top: 5%;
+margin-bottom: 5%;
+
+
+}
+
+form {
+    margin-top: 1em;
+    margin: 0 auto;
+    width: 1000px;
+    height: 400px;
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label{
+    font-size: 1.4em;
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: whitesmoke;
+}
+
+input, textarea{
+    font: 1em sans-serif;
+    box-sizing: border-box;
+    border: 1 px solid rgb(44, 44, 44);
+    border-radius: 10px;
+}
+
+input{
+    width: 700px;
+}
+
+textarea{
+    width: 900px;
+    height: auto;
+    margin: 5 auto;
+
+
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 10rem;
+}
+
+.button {
+padding-left: 90px;
+text-align: center;
+
+}
+
+
+button {
+    font-size: 25px;
+    margin-left: 1em;
+    background-color: rgb(61, 61, 61);
+    color: whitesmoke;
+}

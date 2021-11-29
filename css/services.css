@@ -1,0 +1,44 @@
+
+h1 {
+    font-size: 2.5em;
+    margin: 1em 0;
+  }
+  
+
+.text_services > h2 {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+#services {
+    display: grid;
+    justify-content: center;
+    margin: 0 2em;
+}
+
+.img_services {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1em 1em 0 0;
+    height: 20em;
+}
+
+.cards_service {
+    border-radius: 1em;
+    margin-bottom: 5em;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.text_services {
+    padding: 2em;
+}
+
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 768px) {
+    .img_services {
+        height: 13em;
+    }
+}

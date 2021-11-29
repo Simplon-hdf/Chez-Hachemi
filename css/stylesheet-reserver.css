@@ -1,0 +1,110 @@
+body {
+    background-image: url("/img/wall-texture.jpg");
+    font-family: "open sans", sans-serif;
+    font-size: 125%;
+    line-height: 1.4;
+    font-weight: 400;
+    min-height: 200vh;
+    
+}
+main {
+    
+    max-width: 1300px;
+    margin: 0rem auto 0 auto;
+    padding: 1.5rem;
+    
+}
+
+.background {
+    background-image: url("../img/wall-texture.jpg");
+}
+.calandar {
+    width: 100%;
+    height: 100%;
+    margin: 10 auto;
+    text-align: center;
+
+}
+
+.header-li > a{
+    color: white;
+    text-decoration: none;
+}
+
+.month-indicator {
+    margin-top: 2.5em;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.day-of-the-week,
+.date-grid {
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-columns: minmax(200px, auto);
+    grid-auto-rows: minmax(100px, auto);
+
+}
+
+
+
+.day-of-the-week{
+    margin-top: 1.25em;
+}
+
+.day-of-the-week{
+    font-size: 5em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+    justify-items: start;
+    color: whitesmoke;
+}
+
+.date-grid{
+    margin-top: 0.5em;
+}
+
+.date-grid button:first-child {
+    grid-column: 3;
+}
+/*span les chiffres*/
+.date-grid button {
+    position: relative;
+    border: 0;
+    width: 10ch;
+    height: 10ch;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.6;
+    color: rgb(0, 0, 0);
+}
+
+.date-grid button:hover,
+.date-grid button:focus {
+    outline: none;
+    background-color: rgb(223, 214, 202);
+    color: rgb(126, 86, 34);
+
+}
+
+.button-reserver {
+    width: 50%;
+    height: 30%;
+    font-size: 30px;
+    margin-left:calc(25% - 20%);
+    border: 0;
+    background-color: rgb(124, 124, 124);
+    color: rgb(229, 226, 226);
+    margin: 1rem;
+    
+}
+.button-reserver:hover {
+    outline: none;
+    background-color: rgb(68, 68, 68);;
+}
